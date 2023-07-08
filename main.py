@@ -8,7 +8,7 @@ import html
 with open('', 'r') as f: # Путь к конфигу
     config = json.load(f)
 # Initialize the Telegram bot token
-bot = telebot.TeleBot("6167384598:AAEOZL0nrD3T9WO6tYHlocjZ-YCQZ_XWYe0",parse_mode="HTML")
+bot = telebot.TeleBot("  ",parse_mode="HTML")
 def get_news():
     url = 'https://www.bbc.com/russian'
     response = requests.get(url)
